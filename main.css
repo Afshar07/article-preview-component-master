@@ -45,6 +45,10 @@ body{
         color: rgb(109, 127, 151);
 
     }
+    .author{
+        font-style: normal;
+        font-weight: bold;
+    }
 
 
 }
