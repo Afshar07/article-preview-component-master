@@ -13,6 +13,12 @@ body{
     .maincontainer{
         height: 100%;
         background-color: rgb(236, 242, 248);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .postcard{
+        width: 70%;
     }
 
 
