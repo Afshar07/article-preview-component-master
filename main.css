@@ -20,7 +20,7 @@ body{
         align-items: center;
     }
     .postcard{
-        width: 80%;
+        width: 75%;
         height: auto;
         padding-bottom: 1rem;
         background-color: white;
@@ -32,9 +32,18 @@ body{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-
     .content{
-        margin: 1rem;
+        margin: 1.5rem;
+    }
+    .title{
+        color:   rgb(72, 85, 106);
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+
+    .maintext{
+        color: rgb(109, 127, 151);
+
     }
 
 
