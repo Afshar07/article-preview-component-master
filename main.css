@@ -47,22 +47,37 @@ body{
     }
     .author{
         font-style: normal;
-        font-weight: bold;
-        color: gray;
+        font-weight: 700;
+        color: rgb(97, 97, 97);
     }
     .Avatar{
         width: 60px;
         height: 60px;
         border-radius: 50% !important;
-        padding: 1rem;
     }
     .details{
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        align-content: center;
+        width: 100%;
     }
     .time{
-        font-weight: normal;
+        font-size: .9rem;
+        font-weight: 500 !important;
+        color: rgb(109, 127, 151);
+    }
+    .share{
+        display: flex;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: rgb(228, 228, 228);
+        border-radius: 50%;
+    }
+    .share-btn{
+        width: 1.2rem;
+        height: 1.2rem;
+        align-self: center;
     }
 
 
