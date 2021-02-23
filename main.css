@@ -48,6 +48,21 @@ body{
     .author{
         font-style: normal;
         font-weight: bold;
+        color: gray;
+    }
+    .Avatar{
+        width: 60px;
+        height: 60px;
+        border-radius: 50% !important;
+        padding: 1rem;
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .time{
+        font-weight: normal;
     }
 
 
