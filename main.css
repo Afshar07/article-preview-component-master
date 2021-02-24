@@ -1,88 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
-html{
-    height: 100%;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+html {
+  height: 100%;
+  width: 100%;
 }
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Manrope', sans-serif;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
+  .maincontainer {
+    height: 100%;
+    background-color: rgb(236, 242, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .postcard {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .mainimg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .content {
+    margin: 1.5rem;
+  }
 
-    .maincontainer{
-        height: 100%;
-        background-color: rgb(236, 242, 248);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .postcard{
-        width: 75%;
-        height: auto;
-        background-color: white;
-        border-radius: 20px;
-        padding-bottom: 1rem;
-    }
-    .mainimg{
-        width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .content{
-        margin: 1.5rem;
-    }
-    
-    .title{
-        color:   rgb(72, 85, 106);
-        font-size: 1.15rem;
-        font-weight: bold;
-    }
+  .title {
+    color: rgb(72, 85, 106);
+    font-size: 1.15rem;
+    font-weight: bold;
+  }
 
-    .description{
-        color: rgb(109, 127, 151);
-
-    }
-    .author{
-        font-style: normal;
-        font-weight: 700;
-        color: rgb(97, 97, 97);
-    }
-    .Avatar{
-        width: 60px;
-        height: 60px;
-        border-radius: 50% !important;
-    }
-    .details{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    .time{
-        font-size: .9rem;
-        font-weight: 500 !important;
-        color: rgb(109, 127, 151);
-    }
-    .share{
-        display: flex;
-        justify-content: center;
-        width: 2.5rem;
-        height: 2.5rem;
-        background-color: rgb(228, 228, 228);
-        border-radius: 50%;
-    }
-    .share-btn{
-        width: 1.2rem;
-        height: 1.2rem;
-        align-self: center;
-    }
-    .shareactive{
-        width: 100%;
-        background-color: hsl(217, 19%, 35%);
-    }
-
-
+  .description {
+    color: rgb(109, 127, 151);
+  }
+  .author {
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+  }
+  .Avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% !important;
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .time {
+    font-size: 0.9rem;
+    font-weight: 500 !important;
+    color: rgb(109, 127, 151);
+  }
+  .share {
+    display: flex;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+  }
+  .share-btn {
+    width: 1.2rem;
+    height: 1.2rem;
+    align-self: center;
+  }
+  .shareactive {
+    width: 100%;
+    height: 4rem;
+    background-color: hsl(217, 19%, 35%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sharebtnactive {
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: hsl(214, 17%, 51%);
+    border-radius: 50%;
+  }
+  .shtxt {
+    color: hsl(214, 17%, 51%);
+    letter-spacing: .1rem;
+  }
+  .icongroup{
+      display: flex;
+      justify-content: space-between;
+      width: 37%;
+  }
+  .icongroup > img{
+    width: 1.6rem;
+}
 }
