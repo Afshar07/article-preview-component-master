@@ -11,11 +11,16 @@ body {
   font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 480px) {
+  html{
+    width: 100%;
+    height: 100%;
+  }
   body{
     width: 100%;
+    height: 100%;
   }
   .maincontainer {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: rgb(236, 242, 248);
     display: flex;
@@ -27,6 +32,8 @@ body {
     height: auto;
     background-color: white;
     border-radius: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .mainimg {
     width: 100%;
@@ -61,7 +68,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding-bottom: 1rem;
   }
   .time {
     font-size: 0.9rem;
