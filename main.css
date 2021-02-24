@@ -28,7 +28,7 @@ body {
     align-items: center;
   }
   .postcard {
-    width: 75%;
+    width: 90%;
     height: auto;
     background-color: white;
     border-radius: 20px;
@@ -55,6 +55,7 @@ body {
   }
   .author {
     font-style: normal;
+    /* font-size: .7rem; */
     font-weight: 700;
     color: rgb(97, 97, 97);
   }
