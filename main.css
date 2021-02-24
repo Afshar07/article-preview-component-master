@@ -11,8 +11,12 @@ body {
   font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 480px) {
+  body{
+    width: 100%;
+  }
   .maincontainer {
     height: 100%;
+    width: 100%;
     background-color: rgb(236, 242, 248);
     display: flex;
     justify-content: center;
@@ -72,7 +76,7 @@ body {
     background-color: rgb(228, 228, 228);
     border-radius: 50%;
   }
-  .share-btn {
+  .share-btn, .share-btn-active {
     width: 1.2rem;
     height: 1.2rem;
     align-self: center;
@@ -83,7 +87,7 @@ body {
     background-color: hsl(217, 19%, 35%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
   }
