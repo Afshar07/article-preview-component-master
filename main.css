@@ -22,7 +22,6 @@ body{
     .postcard{
         width: 75%;
         height: auto;
-        padding-bottom: 1rem;
         background-color: white;
         border-radius: 20px;
         padding-bottom: 1rem;
@@ -35,6 +34,7 @@ body{
     .content{
         margin: 1.5rem;
     }
+    
     .title{
         color:   rgb(72, 85, 106);
         font-size: 1.15rem;
@@ -78,6 +78,10 @@ body{
         width: 1.2rem;
         height: 1.2rem;
         align-self: center;
+    }
+    .shareactive{
+        width: 100%;
+        background-color: hsl(217, 19%, 35%);
     }
 
 
