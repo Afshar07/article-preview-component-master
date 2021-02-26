@@ -78,13 +78,12 @@ body {
   justify-content: center;
   width: 1.7rem;
   height: 1.7rem;
-  background-color: rgb(228, 228, 228);
+  background-color: #e4e4e4;
   border-radius: 50%;
   margin-left: auto;
-
+  position: relative;
 }
-.share-btn,
-  .share-btn-active {
+.share-btn{
     width: .8rem;
     height: .8rem;
     align-self: center;
@@ -94,7 +93,49 @@ body {
   .shareactive{
     display: none;
   }
-
+  .shareactive-desk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+    display: none;
+  }
+  .share-btn-active{
+    width: .8rem;
+    height: .8rem;
+    align-self: center;
+    justify-self: flex-end;
+    display: none;
+    }
+  .share-rect{
+    width: 12rem;
+    height: 1rem;
+    background-color: rgb(72, 85, 106);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .share-arrow{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid rgb(72, 85, 106);
+  }
+  .shtxt {
+    color: hsl(214, 17%, 51%);
+    letter-spacing: 0.08rem;
+    font-size: .8rem;
+  }
+.active {
+  display: flex !important;
+}
+.btn-active{
+  background-color: #6d7f97 !important;
+}
 
 }
 
@@ -110,7 +151,7 @@ body {
       height: 100%;
     }
     .maincontainer {
-      height: auto;
+      height: 100vh;
       width: 100%;
       background-color: rgb(236, 242, 248);
       display: flex;
@@ -194,7 +235,7 @@ body {
       justify-content: center;
       width: 2rem;
       height: 2rem;
-      background-color: hsl(214, 17%, 51%);
+      background-color: #6d7f97;
       border-radius: 50%;
     }
     .shtxt {
@@ -208,5 +249,8 @@ body {
     }
     .icongroup > img {
       width: 1.6rem;
+    }
+    .shareactive-desk{
+      display: none;
     }
   }
